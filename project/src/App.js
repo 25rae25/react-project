@@ -1,12 +1,11 @@
-import React from 'react';
-import Hello from './Hello';
+import Todo from './components/Todo';
 
 function App() {
   return (
-    <>
-      <Hello name="react" color="red"/>
-      <Hello color="pink"/>
-    </>
+    <div>
+      <h1>My Todos</h1>
+      <Todo text='Learn React' />
+    </div>
   );
 }
 
