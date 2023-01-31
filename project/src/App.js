@@ -1,10 +1,10 @@
-import Todo from './components/Todo';
+import ExpenseItem from "./components/ExpenseItem";
 
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo text='Learn React' />
+      <h2>Let's get started!</h2>
+      <ExpenseItem> </ExpenseItem>
     </div>
   );
 }
